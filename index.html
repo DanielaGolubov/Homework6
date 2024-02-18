@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+    .exercise1 {
+        margin-top: 8px;
+        margin-right: 32px;
+        margin-bottom: 32px;
+        margin-left: 16px;
+        padding-top: 32px;
+        padding-right: 16px;
+        padding-bottom: 32px;
+        padding-left: 16px;
+        border: solid 1px rgb(0, 0, 0);
+    }
+
+    .exercise2 :first-child {
+        color: deeppink;
+    }
+
+    .exercise2 :nth-child(3) {
+        color: blueviolet;
+    }
+
+    .exercise2 :last-child {
+        color: aqua;
+    }
+
+    .exercise3 {
+        height: 75px;
+        width: 75px;
+        border: 2px solid rgb(0, 0, 0);
+    }
+
+    .exercise3:hover {
+        border: 2px solid rgb(250, 0, 0)
+    }
+
+    .exercise4 {
+        position: relative;
+        height: 50px;
+        width: 250px;
+        border: solid 1px;
+    }
+
+    .exercise4_2 {
+        position: absolute;
+        height: 50%;
+        width: 25%;
+        background-color: darkred;
+    }
+
+    .exercise5::after {
+        content: " dupa";
+    }
+
+    .exercise5::before {
+        content: "inainte ";
+    }
+</style>
+
+<body>
+    <div class="exercise1">content</div>
+    <div class="exercise2">
+        <p>1</p>
+        <p>2</p>
+        <p>3</p>
+        <p>4</p>
+        <p>5</p>
+        <p>6</p>
+        <p>7</p>
+        <p>8</p>
+    </div>
+    <div class="exercise3">
+        Some Text
+    </div>
+    <div class="exercise4">
+        <div class="exercise4_2">
+        </div>
+    </div>
+    <h1 class="exercise5">text</h1>
+</body>
+
+</html>
